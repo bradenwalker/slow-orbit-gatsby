@@ -15,23 +15,20 @@ const renderImgArr = () => {
 
 const renderNavLinks = () => {
   const containerStyle = {
-    fontSize: '12px',
+    fontSize: '14px',
     fontFamily: 'arial',
     textAlign: 'center',
-    margin: '0 auto',
-    marginBotton: '30px'
+    margin: '0 auto'
   }
   const linkWrapperStyle = {
-    marginTop: 0,
-    display: 'inline-block',
-    width: '25%'
+    margin: '10px',
+    display: 'inline-block'
   }
   const linkStyle = {
-    padding: '8px',
+    padding: '5px',
     textDecoration: 'none',
     color: 'lightgreen',
-    background: '#5d925d',
-    borderRadius: '5px'
+    background: '#5d925d'
   }
   return (
     <div
@@ -59,7 +56,7 @@ const renderNavLinks = () => {
 
 const IndexPage = () => (
   <div>
-    {renderImgArr()}
+    {/* {renderImgArr()} */}
     {renderNavLinks()}
   </div>
 )

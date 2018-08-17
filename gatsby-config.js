@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Slow Orbit Comics',
+    title: 'Slow Orbit'
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }

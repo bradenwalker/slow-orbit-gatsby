@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, subTitle }) => (
   <div
     style={{
-      background: 'teal',
+      background: '#5d925d',
       marginBottom: '1.45rem',
       textAlign: 'center'
     }}
@@ -29,10 +29,12 @@ const Header = ({ siteTitle }) => (
       </h4>
       <p
         style={{
-          fontSize: '10px'
+          fontSize: '10px',
+          color: 'white',
+          fontFamily: 'arial'
         }}
       >
-        By Braden Walker
+        { subTitle }
       </p>
     </div>
   </div>
