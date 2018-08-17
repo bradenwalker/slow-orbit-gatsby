@@ -4,18 +4,19 @@ import Link from 'gatsby-link'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'teal',
       marginBottom: '1.45rem',
+      textAlign: 'center'
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        paddingTop: '5px'
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h4 style={{ margin: '0 5px' }}>
         <Link
           to="/"
           style={{
@@ -25,7 +26,14 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </h4>
+      <p
+        style={{
+          fontSize: '10px'
+        }}
+      >
+        By Braden Walker
+      </p>
     </div>
   </div>
 )
